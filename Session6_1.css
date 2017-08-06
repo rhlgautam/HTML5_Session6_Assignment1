@@ -1,0 +1,24 @@
+p{
+	background-color: green;
+	padding: 5px;
+	color: white;
+}
+button{
+	padding: 5px 15px;
+	background-color: green;
+	color: white;
+	border: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+#result{
+	display: none;
+	background-color: green;
+	color: white;
+	padding: 10px;
+	text-align: center;	
+	margin-top: 20px;
+}

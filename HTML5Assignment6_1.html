@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5Assignment6.1</title>
+	<script src="Session6_1.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="Session6_1.css">
+</head>
+<body>
+	<h1>Welcome to Acadgild!!</h1>
+	<p>Enter salary of an employee and working hours in the below input box. 
+	Click on 'Add Bonus', It will display the updated salary with added bonus.</p>
+	<p> 
+		Bonus Conditions:<br>
+		1. If Salary is greater than 15000 AND working hours are greater than 10 hours, Bonus will be 10 %.<br>
+		2. If salary is less than 15000 OR working hours are less than 10 hours, Bonus will be 5%.
+	</p>
+	<span><b>Salary:</b></span>
+	<input type="text" id="txt_salary"/>
+	<span style="margin-left:20px"><b>Working Hours:</b></span>
+	<input type="text" id="txt_hours"/>
+	<button id="btn_Updated" onclick="updateSalary()">Add Bonus</button>
+	<div id="result"></div>
+</body>
+</html>
